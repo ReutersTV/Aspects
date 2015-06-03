@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double AspectsVersionNumber;
 FOUNDATION_EXPORT const unsigned char AspectsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Aspects/PublicHeader.h>
-
+#import <Aspects/Aspects_.h>
 

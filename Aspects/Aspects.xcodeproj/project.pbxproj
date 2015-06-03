@@ -10,8 +10,8 @@
 		C14FA8531B1CBFFC00143FC8 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = C14FA8521B1CBFFC00143FC8 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C14FA8591B1CBFFC00143FC8 /* Aspects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14FA84D1B1CBFFC00143FC8 /* Aspects.framework */; };
 		C14FA8601B1CBFFC00143FC8 /* AspectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C14FA85F1B1CBFFC00143FC8 /* AspectsTests.m */; };
-		C14FA86B1B1CC00900143FC8 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = C14FA8691B1CC00900143FC8 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C14FA86C1B1CC00900143FC8 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = C14FA86A1B1CC00900143FC8 /* Aspects.m */; };
+		C14FB5941B1F08DD00143FC8 /* Aspects_.h in Headers */ = {isa = PBXBuildFile; fileRef = C14FB5921B1F08DD00143FC8 /* Aspects_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C14FB5951B1F08DD00143FC8 /* Aspects_.m in Sources */ = {isa = PBXBuildFile; fileRef = C14FB5931B1F08DD00143FC8 /* Aspects_.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +31,8 @@
 		C14FA8581B1CBFFC00143FC8 /* AspectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14FA85E1B1CBFFC00143FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14FA85F1B1CBFFC00143FC8 /* AspectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AspectsTests.m; sourceTree = "<group>"; };
-		C14FA8691B1CC00900143FC8 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aspects.h; path = ../../Aspects.h; sourceTree = "<group>"; };
-		C14FA86A1B1CC00900143FC8 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Aspects.m; path = ../../Aspects.m; sourceTree = "<group>"; };
+		C14FB5921B1F08DD00143FC8 /* Aspects_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aspects_.h; path = ../../Aspects_.h; sourceTree = "<group>"; };
+		C14FB5931B1F08DD00143FC8 /* Aspects_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Aspects_.m; path = ../../Aspects_.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 		C14FA84F1B1CBFFC00143FC8 /* Aspects */ = {
 			isa = PBXGroup;
 			children = (
-				C14FA8691B1CC00900143FC8 /* Aspects.h */,
-				C14FA86A1B1CC00900143FC8 /* Aspects.m */,
+				C14FB5921B1F08DD00143FC8 /* Aspects_.h */,
+				C14FB5931B1F08DD00143FC8 /* Aspects_.m */,
 				C14FA8521B1CBFFC00143FC8 /* Aspects.h */,
 				C14FA8501B1CBFFC00143FC8 /* Supporting Files */,
 			);
@@ -115,7 +115,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14FA86B1B1CC00900143FC8 /* Aspects.h in Headers */,
+				C14FB5941B1F08DD00143FC8 /* Aspects_.h in Headers */,
 				C14FA8531B1CBFFC00143FC8 /* Aspects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14FA86C1B1CC00900143FC8 /* Aspects.m in Sources */,
+				C14FB5951B1F08DD00143FC8 /* Aspects_.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +406,7 @@
 				C14FA8651B1CBFFC00143FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C14FA8661B1CBFFC00143FC8 /* Build configuration list for PBXNativeTarget "AspectsTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +415,7 @@
 				C14FA8681B1CBFFC00143FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
