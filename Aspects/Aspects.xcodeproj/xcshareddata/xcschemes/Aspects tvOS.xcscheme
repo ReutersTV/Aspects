@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0710"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C14FA84C1B1CBFFC00143FC8"
-               BuildableName = "Aspects.framework"
-               BlueprintName = "Aspects"
-               ReferencedContainer = "container:Aspects.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C14FA8571B1CBFFC00143FC8"
-               BuildableName = "AspectsTests.xctest"
-               BlueprintName = "AspectsTests"
+               BlueprintIdentifier = "DD4F92E41C0F7CBC00CDBF01"
+               BuildableName = "Aspects tvOS.framework"
+               BlueprintName = "Aspects tvOS"
                ReferencedContainer = "container:Aspects.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C14FA8571B1CBFFC00143FC8"
-               BuildableName = "AspectsTests.xctest"
-               BlueprintName = "AspectsTests"
-               ReferencedContainer = "container:Aspects.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C14FA84C1B1CBFFC00143FC8"
-            BuildableName = "Aspects.framework"
-            BlueprintName = "Aspects"
-            ReferencedContainer = "container:Aspects.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -78,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C14FA84C1B1CBFFC00143FC8"
-            BuildableName = "Aspects.framework"
-            BlueprintName = "Aspects"
+            BlueprintIdentifier = "DD4F92E41C0F7CBC00CDBF01"
+            BuildableName = "Aspects tvOS.framework"
+            BlueprintName = "Aspects tvOS"
             ReferencedContainer = "container:Aspects.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C14FA84C1B1CBFFC00143FC8"
-            BuildableName = "Aspects.framework"
-            BlueprintName = "Aspects"
+            BlueprintIdentifier = "DD4F92E41C0F7CBC00CDBF01"
+            BuildableName = "Aspects tvOS.framework"
+            BlueprintName = "Aspects tvOS"
             ReferencedContainer = "container:Aspects.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
